@@ -10,7 +10,7 @@ Install docker [desktop](https://www.docker.com/products/docker-desktop/) in cas
 
 3. Build docker image for the app
 
-    `docker build -t <name_of_tag> <path_of_docker_file>`
+    `docker build -t <docker_image_tag> <path_of_docker_file>`
 
 4. See docker image generated 
 
@@ -28,7 +28,7 @@ Install docker [desktop](https://www.docker.com/products/docker-desktop/) in cas
 
 5. Run docker image successfully created.
 
-    `docker run <image_tag>`
+    `docker run <docker_image_tag>`
   
 6. See the output from the containerized app.
    
@@ -36,5 +36,9 @@ Install docker [desktop](https://www.docker.com/products/docker-desktop/) in cas
 
 7. Pull a remote docker image from docker hub
    
-   `docker pull <docker_hub_image_tag>`
+   `docker pull <docker_image_tag>`
+
+8. Run a container interactively with an docker image.
+
+   `docker run -it <docker_image_tag>`
    
