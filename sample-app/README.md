@@ -1,6 +1,6 @@
 Install docker (brew install docker on Mac)
 
-Install docker desktop in case trouble running daemon from CLI
+Install docker [desktop](https://www.docker.com/products/docker-desktop/) in case trouble running daemon from CLI
 
 1. Build a simple js app that logs a message.
 
@@ -8,16 +8,17 @@ Install docker desktop in case trouble running daemon from CLI
 
 3. Build docker image for the app
 
-docker build -t <name_of_tag>hello-docker-mg <path_of_docker_file>
-
-docker build -t hello-docker-mg .
+  `docker build -t <name_of_tag>hello-docker-mg <path_of_docker_file>`
 
 4. See docker image generated 
 
-docker images
+  `docker images`
 
 5. Run docker image successfully created.
 
-docker run <image_tag>
+  `docker run <image_tag>`
 
 6. See the output from the containerized app.
+
+7. Output
+   `Hello Docker World!`
