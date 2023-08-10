@@ -1,3 +1,5 @@
+Inspiration [@CodeWithMosh](https://www.youtube.com/watch?v=pTFZFxd4hOI)
+
 Install docker (brew install docker on Mac)
 
 Install docker [desktop](https://www.docker.com/products/docker-desktop/) in case trouble running daemon from CLI
